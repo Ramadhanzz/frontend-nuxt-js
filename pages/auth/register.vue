@@ -69,6 +69,10 @@ export default {
                 })
         },
 
+        async checking() {
+            
+        },
+
         async fetchSomething() {
             const ip = await this.$axios.$get('http://icanhazip.com')
             console.log(ip);
