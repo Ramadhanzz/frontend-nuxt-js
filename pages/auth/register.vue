@@ -70,7 +70,11 @@ export default {
         },
 
         async checking() {
-            
+            test
+        },
+
+        async testing() {
+
         },
 
         async fetchSomething() {
